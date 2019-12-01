@@ -3,7 +3,7 @@ Before you apply for this position we first challenge you to a quiz on the topic
 The idea is to give you an opportunity to learn about some important topics for this position and demonstrate basic understanding. 
 
 If you have stumbled upon this repository without reading the job ad first, pleas refer to 
-[finn.no](www.finn.no/???) or [sevassp.com](www.sevanssp.com/???)
+[finn.no](http://www.finn.no/???) or [sevassp.com](http://www.sevanssp.com/???)
 
 ## Quiz
 Hints and necessary code is found in the repository. All code is written in Python 3.6.
