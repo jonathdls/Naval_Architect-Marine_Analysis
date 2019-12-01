@@ -2,7 +2,7 @@
 Before you apply for this position we first challenge you to a quiz on the topics hydrodynamics and coding.
 The idea is to give you an opportunity to learn about some important topics for this position and demonstrate basic understanding. 
 
-If you have stumbled upon this repository without reading the job ad first, pleas refer to 
+If you have stumbled upon this repository without reading the job ad first, please refer to 
 [finn.no](http://www.finn.no/???) or [sevassp.com](http://www.sevanssp.com/???)
 
 ## Quiz
@@ -17,13 +17,15 @@ The complied python file for task 1 contains the following function:
 ```python
 def model_test_scaling(full_scale_diameter):
     """
-    Scales and prints statistical parameters from 5 model test measurement channels in the specified full scale.
-    The model test scale is defined by the waterline diameter of the full scale unit. 
+    Scales and prints statistical parameters from 5 model test measurement 
+    channels in the specified full scale. The model test scale is defined 
+    by the waterline diameter of the full scale unit. 
 
     Parameters
     ----------
     full_scale_diameter: float
-        Water line diameter (m) of full scale unit, which the model test data is scaled to
+        Water line diameter (m) of full scale unit, which the model test 
+        data is scaled to
     """    
 ```
 The model test scaling produces incorrect results for one of the channels.
