@@ -13,7 +13,7 @@ Download the quiz sheet from this repository and add your answers to the questio
 
 ### 1) Incorrect Froude scaling
 Model testing is a vital part of verifying the performance of a floating structure. 
-Reults in model scale are converted to full scale under the assumption that the Froude number in both model and full scale is the same.
+Results in are converted from model to full scale under the assumption that the Froude number in both scales is identical (i.e. Froude scaling).
 
 The complied python file for task 1 contains the following function:
 
