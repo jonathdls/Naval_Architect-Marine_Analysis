@@ -37,7 +37,7 @@ Which channel scales incorrectly, and why is it incorrect?
 ### 2) Mooring chain properties
 Chains are important components in the mooring system use to keep floating structures in place.
 
-The task 2 Python file contains a simplified ```MooringChain``` class capable of returning the breaking strength and dry weight of chain in accordance with DNVGL-OS-E302 (or any other class society for tha matter).
+The task 2 Python file contains a simplified ```MooringChain``` class capable of returning the breaking strength and dry weight of chain in accordance with DNVGL-OS-E302 (or any other class society for that matter).
 This class can be used to answer he following questions:
 
 What is the breaking strength of 157 mm R4S chain in kN?
