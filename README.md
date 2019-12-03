@@ -32,7 +32,9 @@ def model_test_scaling(full_scale_diameter):
     """    
 ```
 The model test scaling produces incorrect results for one of the channels.
-Which channel scales incorrectly, and why is it incorrect? 
+
+- Which channel scales incorrectly?
+- Why is that channel incorrect? 
 
 ### 2) Mooring chain properties
 Chains are important components in the mooring system use to keep floating structures in place.
@@ -40,10 +42,10 @@ Chains are important components in the mooring system use to keep floating struc
 The task 2 Python file contains a simplified ```MooringChain``` class capable of returning the breaking strength and dry weight of chain in accordance with DNVGL-OS-E302 (or any other class society for that matter).
 This class can be used to answer he following questions:
 
-What is the breaking strength of 157 mm R4S chain in kN?
-What is the dry weight per length of 84 mm stud chain in kg/m?
+- What is the breaking strength of 157 mm R4S chain in kN?
+- What is the dry weight per length of 84 mm stud chain in kg/m?
 
-Be aware that the SI units are expected and returned by the ```MooringChain``` class and its methods.   
+Be aware that the ```MooringChain``` class and its methods expect and return SI units.   
 
 ### 3)
 

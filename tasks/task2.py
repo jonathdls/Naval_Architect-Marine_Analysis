@@ -10,7 +10,6 @@ class MooringChain:
     References
     ----------
     .. [1] DNVGL-OS-E302, "Offshore mooring chain", 2015
-    .. [2] www.vicinay-cadenas.net/mooring-chain/offshore-mooring-chain.asp
     """
 
     def __init__(self, quality: str, stud: bool):
@@ -26,7 +25,7 @@ class MooringChain:
         return quality_strength[self.quality]
 
     def factor_dry_weight(self):
-        """float: Ratio of unit length dry weight to diameter squared per [1] and [2] (N / m^2 / m)."""
+        """float: Ratio of unit length dry weight to diameter squared per [1] (N / m^2 / m)."""
         if self.stud:
             return 0.0219 * 1.e6 * 9.81
         elif not self.stud:
