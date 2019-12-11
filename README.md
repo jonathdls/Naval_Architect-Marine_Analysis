@@ -52,8 +52,8 @@ Global performance and natural period is important parameters for a floating str
 
 The task 3 Python file contains a simplified ```NaturalPeriod``` class that can return added mass and natural period for a cylinder and a barge in accordance with approximated methods
 This class can be used to answer the following questions:
- ## a) What is the added mass of a cylinder with diameter = 100m
- ## b) What is the natural period of the same cylinder with mass = 200,000t. Use the added mass determined in a) (if you didn't solve a), use a33=300,000t)
+ - a) What is the added mass of a cylinder with diameter = 100m
+ - b) What is the natural period of the same cylinder with mass = 200,000t. Use the added mass determined in a) (if you didn't solve a), use a33=300,000t)
 
 Be aware that the ```NaturalPeriod``` class and its methods expect and return SI units.
 ### 4)
