@@ -67,11 +67,21 @@ class SimplifiedBarge(SimplifiedFloater):
 
         Notes
         -----
-        The added mass for a barge is approximated by formula: A_33 = 2*rho*B*D*L
+        The added mass for a barge is approximated by Lewis numerical study (A_33 = cm * pi * rho * (width/2)^2 * length)
         """
         if width > 0 or draft > 0 or length > 0:
-            self.est_added_mass = 2 * self.rho * width * draft * length#0.8 * self.rho * width * draft * length
+            self.est_added_mass = self.estimated_added_mass_coefficient(width, draft) \
+                                  * self.rho * np.pi * width**2 / 4 * length
             return round(self.est_added_mass, 1)
         else:
             raise ValueError("Make sure to have positive input scalars")
+
+    def estimated_added_mass_coefficient(self, width: float, draft: float):
+        """
+        Estimation of added mass coefficient for a rectangular 2d geometry
+        :param width: with of geometry
+        :param draft: draft of the geometry
+        :return: estimated added mass coefficient of a rectangular approximated by line fit of Lewis numerical study
+        """
+        return 1.5937 * (draft/width)**0.121
 
