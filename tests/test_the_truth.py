@@ -12,14 +12,14 @@ def test_logic():
     assert True is True
 
 
-def test_stability_margin(stability):
+def test_stability_margin(stability_margin):
     """
     GIVEN a Sevan unit and a semi submersible
     WHEN evaluating stability margins
     THEN check that the Sevan unit has larger margin than a semi
     """
 
-    assert stability('Sevan') > stability('Semi')
+    assert stability_margin('Sevan') > stability_margin('Semi')
 
 
 def test_cost(cost):
@@ -28,5 +28,4 @@ def test_cost(cost):
     WHEN evaluating cost
     THEN check that the Sevan FPSO has lower cost than a ship-shaped FPSO
     """
-
     assert cost('Sevan FPSO') < cost('Ship-shaped FPSO')

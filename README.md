@@ -6,6 +6,8 @@ We will require that all questions are aswered correctly to be considered, but w
 If you have stumbled upon this repository without reading the job ad first, please refer to 
 [finn.no](http://www.finn.no/???) or [sevassp.com](http://www.sevanssp.com/???)
 
+[![Build Status](https://travis-ci.com/SevanSSP/Naval_Architect-Marine_Analysis.svg?branch=master)](https://travis-ci.com/SevanSSP/Naval_Architect-Marine_Analysis)
+
 ## Quiz
 Hints and necessary code is found in the repository. All code is written in Python 3.6.
 

@@ -5,10 +5,14 @@ import pytest
 
 
 @pytest.fixture(scope='module')
-def cost(unit_type):
-    return unit_type
+def cost():
+    def _cost(argument):
+        return argument
+    yield _cost
 
 
 @pytest.fixture(scope='module')
-def stability(unit_type):
-    return unit_type
+def stability_margin():
+    def _stability_margin(argument):
+        return argument
+    return _stability_margin
