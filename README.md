@@ -12,7 +12,9 @@ Hints and necessary code is found in the repository. All code is written in Pyth
 ### Quiz sheet
 Download the quiz sheet from this repository and add your answers to the questions below.  
 
-### 1) 
+### 1) Hex your name
+
+- What is your name in hexadecimal form?
 
 ### 2) Mooring chain properties
 Chains are important components in the mooring system use to keep floating structures in place.
@@ -38,7 +40,7 @@ But that would make the quiz to easy. Instead we only test some recognised truth
 Model testing is a vital part of verifying the performance of a floating structure. 
 Results in are converted from model to full scale under the assumption that the Froude number in both scales is identical (i.e. Froude scaling).
 
-The complied python file for task 1 contains the following function:
+The complied python file for task 5 contains the following function:
 
 ```python
 def model_test_scaling(full_scale_diameter):
@@ -61,4 +63,4 @@ The model test scaling produces incorrect results for one of the channels.
 
 
 ## Apply
-506c6561736520777269746520612073686f7274206170706c69636174696f6e20616e642061747461636820796f757220435620616e6420746865207175697a2073686565742e20546865206170706c69636174696f6e2077697468206174746163686d656e7473207368616c6c2062652073656e7420746f206a6f6240736576616e7373702e636f6d2e
+506c6561736520777269746520612073686f7274206170706c69636174696f6e2c2061747461636820796f757220435620616e6420746865207175697a2073686565742c20616e642073656e642065766572797468696e67206f666620746f206a6f6240736576616e7373702e636f6d2077697468696e2030362e30312e32302e
