@@ -1,0 +1,8 @@
+.tox/
+logs/
+.idea
+__pycache__/
+**/__pycache__/
+.py[od]
+.pytest_cache/
+.pytest_cache
