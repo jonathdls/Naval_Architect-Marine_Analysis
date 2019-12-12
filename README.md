@@ -28,7 +28,7 @@ Be aware that the ```MooringChain``` class and its methods expect and return SI 
 ### 3)
 
 ### 4) Travis-CI
-We apply [Travis CI](www.tracis-ci.com) for testing our code, building our packages and distributing them to [packager.com](app.packagr.com). 
+We apply [Travis CI](http://www.tracis-ci.com) for testing our code, building our packages and distributing them to [packager.com](http://app.packagr.com). 
 The tests\ folder contains the tests for this repository. A proper set of tests should have checked all aspects of the codes found under e.g tasks\ . 
 But that would make the quiz to easy. Instead we only test some recognised truths. The status of the testing is seen by the status icon at the top of this readme.
 
