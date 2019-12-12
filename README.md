@@ -1,12 +1,10 @@
-# Naval Architect - Marine Analysis
+# Naval Architect - Marine Analysis [![Build Status](https://travis-ci.com/SevanSSP/Naval_Architect-Marine_Analysis.svg?branch=master)](https://travis-ci.com/SevanSSP/Naval_Architect-Marine_Analysis)
 Before you apply for this position we first challenge you to a quiz on the topics hydrodynamics and coding.
 The idea is to give you an opportunity to learn about some important topics for this position and demonstrate basic understanding.
 We will require that all questions are aswered correctly to be considered, but we would like to see that an attempt is made on all questions.  
 
 If you have stumbled upon this repository without reading the job ad first, please refer to 
 [finn.no](http://www.finn.no/???) or [sevassp.com](http://www.sevanssp.com/???)
-
-[![Build Status](https://travis-ci.com/SevanSSP/Naval_Architect-Marine_Analysis.svg?branch=master)](https://travis-ci.com/SevanSSP/Naval_Architect-Marine_Analysis)
 
 ## Quiz
 Hints and necessary code is found in the repository. All code is written in Python 3.6.
@@ -29,7 +27,12 @@ Be aware that the ```MooringChain``` class and its methods expect and return SI 
 
 ### 3)
 
-### 4)
+### 4) Travis-CI
+We apply [Travis CI](www.tracis-ci.com) for testing our code, building our packages and distributing them to [packager.com](app.packagr.com). 
+The tests\ folder contains the tests for this repository. A proper set of tests should have checked all aspects of the codes found under e.g tasks\ . 
+But that would make the quiz to easy. Instead we only test some recognised truths. The status of the testing is seen by the status icon at the top of this readme.
+
+- What is the value of the ```HiddenValue``` environmental variable set in Travis for this repository?
 
 ### 5) Froude scaling
 Model testing is a vital part of verifying the performance of a floating structure. 
