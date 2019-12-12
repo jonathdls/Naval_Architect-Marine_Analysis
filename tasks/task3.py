@@ -17,8 +17,17 @@ class SimplifiedFloater:
     def __init__(self):
         self.est_added_mass = 0
 
-    def natural_period_heave(self, mass, waterplane_area, added_mass=None):
-
+    def natural_period_heave(self, mass, waterplane_area=None, added_mass=None):
+        """
+        Uncoupled and undamped natural period in heave
+        :param mass: float
+            Mass of structure [t]
+        :param waterplane_area: float
+            waterplane_area of structure [m^2]
+        :param added_mass: float
+            estimated added mass in heave for structure [t]
+        :return:
+        """
         if added_mass is not None:
             return round(2 * np.pi * np.sqrt((mass + added_mass) / (self.rho * self.grav * waterplane_area)), 1)
         else:
@@ -36,7 +45,7 @@ class SimplifiedCylinder(SimplifiedFloater):
         Estimated heave added mass of a cylinder.
         diameter : float
             Diameter of cylinder [m]
-        return : Added mass [kg]
+        return : Added mass [t]
 
         Notes
         -----
@@ -62,14 +71,16 @@ class SimplifiedBarge(SimplifiedFloater):
             Length of barge [m]
         width : float
             Width of barge [m]
-        draft : draft of geometry
-        return : Added mass [kg]
+        draft : float
+            Draft of barge [m]
+        return : Added mass [t]
 
         Notes
         -----
-        The added mass for a barge is approximated by Lewis numerical study (A_33 = cm * pi * rho * (width/2)^2 * length)
+        The added mass for a barge is approximated by Lewis numerical study
+        A_33 = cm * pi * rho * (width/2)^2 * length
         """
-        if width > 0 or draft > 0 or length > 0:
+        if width > 0 and draft > 0 and length > 0:
             self.est_added_mass = self.estimated_added_mass_coefficient(width, draft) \
                                   * self.rho * np.pi * width**2 / 4 * length
             return round(self.est_added_mass, 1)
@@ -78,10 +89,9 @@ class SimplifiedBarge(SimplifiedFloater):
 
     def estimated_added_mass_coefficient(self, width: float, draft: float):
         """
-        Estimation of added mass coefficient for a rectangular 2d geometry
-        :param width: with of geometry
+        Estimation of added mass coefficient (cm) for a rectangular 2d geometry
+        :param width: width of geometry
         :param draft: draft of the geometry
         :return: estimated added mass coefficient of a rectangular approximated by line fit of Lewis numerical study
         """
         return 1.5937 * (draft/width)**0.121
-
