@@ -17,7 +17,7 @@ Download the quiz sheet from this repository and add your answers to the questio
 - What is your name in hexadecimal form?
 
 ### 2) Mooring chain properties
-Chains are important components in the mooring system use to keep floating structures in place.
+Chains are important components in the mooring system used to keep floating structures in place.
 
 The task 2 Python file contains a simplified ```MooringChain``` class capable of returning the breaking strength and dry weight of chain in accordance with DNVGL-OS-E302 (or any other class society for that matter).
 This class can be used to answer he following questions:
