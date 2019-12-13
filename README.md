@@ -19,7 +19,7 @@ Download the quiz sheet from this repository and add your answers to the questio
 ### 2) Mooring chain properties
 Chains are important components in the mooring system used to keep floating structures in place.
 
-The task 2 Python file contains a simplified ```MooringChain``` class capable of returning the breaking strength and dry weight of chain in accordance with DNVGL-OS-E302 (or any other class society for that matter).
+The task 2 Python file contains a simplified ```MooringChain``` class capable of returning the breaking strength and dry weight of chain in accordance with DNVGL-OS-E302 (or any other class society, for that matter).
 This class can be used to answer he following questions:
 
 - What is the breaking strength of 157 mm R4S chain in kN?
@@ -32,8 +32,8 @@ Global performance and natural period is important parameters for a floating str
 
 The task 3 Python file contains a  ```Floater``` class, and ```Barge``` and ```Cylinder``` sub classes that can return added mass and natural period for a cylinder and a barge in accordance with approximated methods
 This class can be used to answer the following questions:
- - a) What is the added mass of a cylinder with diameter = 100m?
- - b) What is the natural period of a barge with mass = 150,000t, length=300m, width=55m and draft=18m? Hint, first calculate the estimated added mass through the estimated_added_mass method, then the heave natural period
+ - What is the added mass of a cylinder with diameter = 100m?
+ - What is the natural period of a barge with mass = 150,000t, length=300m, width=55m and draft=18m? Hint, first calculate the estimated added mass through the estimated_added_mass method, then the heave natural period
 
 Be aware that the ```Floater```, ```Barge``` and ```Cylinder``` classes and its methods expect and return SI units.
 
