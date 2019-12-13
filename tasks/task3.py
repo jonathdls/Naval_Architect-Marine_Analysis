@@ -1,7 +1,7 @@
 import numpy as np
 
 
-class SimplifiedFloater:
+class Floater:
     """
     Simplified floater with calculation of uncoupled and undamped natural period in heave of a geometry
     Parameters
@@ -28,7 +28,7 @@ class SimplifiedFloater:
         return 2 * np.pi * np.sqrt((self.mass + self.added_mass) / (self.rho * self.grav * self.wp_area))
 
 
-class SimplifiedCylinder(SimplifiedFloater):
+class Cylinder(Floater):
     """
     Simplified cylinder
     Parameters
@@ -63,9 +63,9 @@ class SimplifiedCylinder(SimplifiedFloater):
         return np.pi * self.diameter**2 / 4
 
 
-class SimplifiedBarge(SimplifiedFloater):
+class Barge(Floater):
     """
-    Simplified calculation of barge added mass, and calculation of waterplane area
+    Simplified Barge
     Parameters
     ----------
     mass : float
@@ -100,7 +100,7 @@ class SimplifiedBarge(SimplifiedFloater):
 
     @property
     def estimated_added_mass_coefficient(self):
-        """ float: estimated added mass coefficient (cm) rectangular approximated by line fit of Lewis numerical study
+        """ float: estimated added mass coefficient (cm) [-] rectangular approximated by line fit of Lewis numerical study
         """
         return 1.5937 * (self.draft/self.width)**0.121
 
