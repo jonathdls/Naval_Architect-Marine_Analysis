@@ -37,7 +37,7 @@ class MooringChain:
         Parameters
         ----------
         diameter : float
-            Cross sectiom diameter (m).
+            Cross section diameter (m).
         Returns
         -------
         float

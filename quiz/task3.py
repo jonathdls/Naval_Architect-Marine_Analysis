@@ -24,7 +24,6 @@ class Floater:
     @property
     def natural_period_heave(self):
         """ float: uncoupled and undamped natural period in heave [s]"""
-
         return 2 * np.pi * np.sqrt((self.mass + self.added_mass) / (self.rho * self.grav * self.wp_area))
 
 
@@ -40,7 +39,6 @@ class Cylinder(Floater):
     added_mass : float (optional)
         added mass in heave, A33, of floater [kg], estimated if None
     """
-
     def __init__(self, mass: float, diameter: float, added_mass: float = None):
         self.diameter = diameter
         super().__init__(mass=mass,
@@ -79,7 +77,6 @@ class Barge(Floater):
     added_mass : float (optional)
         added mass in heave, A33, of floater [kg], estimated if None
     """
-
     def __init__(self, mass: float, width: float, draft: float, length: float, added_mass: float = None):
         self.width = width
         self.draft = draft
@@ -100,7 +97,8 @@ class Barge(Floater):
 
     @property
     def estimated_added_mass_coefficient(self):
-        """ float: estimated added mass coefficient (cm) [-] rectangular approximated by line fit of Lewis numerical study
+        """ float: estimated added mass coefficient (cm) [-] fro a rectangular cross section approximated
+        by line fit of Lewis numerical study.
         """
         return 1.5937 * (self.draft/self.width)**0.121
 

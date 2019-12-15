@@ -4,7 +4,7 @@ The idea is to give you an opportunity to learn about some important topics for 
 We will not require that all questions are aswered correctly to be considered, but we would like to see that an attempt is made on all questions.  
 
 If you have stumbled upon this repository without reading the job ad first, please refer to 
-[finn.no](http://www.finn.no/???) or [sevassp.com](http://www.sevanssp.com/???)
+[finn.no](http://www.finn.no/???) or [sevanssp.com](http://www.sevanssp.com/???)
 
 ## Quiz
 Hints and necessary code is found in the repository. All code is written in Python 3.6.
@@ -30,15 +30,15 @@ Be aware that the ```MooringChain``` class and its methods expect and return SI 
 ### 3) Added mass and natural period
 Global performance and natural period is important parameters for a floating structure.
 
-The task 3 Python file contains a  ```Floater``` class, and ```Barge``` and ```Cylinder``` sub classes that can return added mass and natural period for a cylinder and a barge in accordance with approximated methods
-This class can be used to answer the following questions:
+The task 3 Python file contains a  ```Floater``` class, and ```Barge``` and ```Cylinder``` sub-classes that return added mass and natural period for a cylinder and a barge in accordance with approximated methods.
+The classes can be used to answer the following questions:
  - What is the added mass of a cylinder with diameter = 100m?
  - What is the natural period of a barge with mass = 150,000t, length=300m, width=55m and draft=18m? Hint, first calculate the estimated added mass through the estimated_added_mass method, then the heave natural period
 
 Be aware that the ```Floater```, ```Barge``` and ```Cylinder``` classes and its methods expect and return SI units.
 
 ### 4) Travis-CI
-We apply [Travis CI](http://www.tracis-ci.com) for testing our code, building our packages and distributing them to [packager.com](http://app.packagr.com).
+We apply [Travis CI](http://www.travis-ci.com) for testing our code, building our packages and distributing them to [packager.com](http://app.packagr.com).
 The tests\ folder contains the tests for this repository. A proper set of tests should have checked all aspects of the codes found under e.g tasks\ .
 But that would make the quiz to easy. Instead we only test some recognised truths. The status of the testing is seen by the status icon at the top of this readme.
 
@@ -46,7 +46,7 @@ But that would make the quiz to easy. Instead we only test some recognised truth
 
 ### 5) Froude scaling
 Model testing is a vital part of verifying the performance of a floating structure. 
-Results in are converted from model to full scale under the assumption that the Froude number in both scales is identical (i.e. Froude scaling).
+Results are converted from model to full scale under the assumption that the Froude number in both scales is identical (i.e. Froude scaling).
 
 The complied python file for task 5 contains the following function:
 
