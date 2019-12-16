@@ -32,13 +32,13 @@ Global performance and natural period is important parameters for a floating str
 
 The task 3 Python file contains a  ```Floater``` class, and ```Barge``` and ```Cylinder``` sub-classes that return added mass and natural period for a cylinder and a barge in accordance with approximated methods.
 The classes can be used to answer the following questions:
- - What is the added mass of a cylinder with diameter = 100m?
+ - What is the added mass of a cylinder with diameter = 100m, give the answer in tons?
  - What is the natural period of a barge with mass = 150,000t, length=300m, width=55m and draft=18m? Hint, first calculate the estimated added mass through the estimated_added_mass method, then the heave natural period
 
 Be aware that the ```Floater```, ```Barge``` and ```Cylinder``` classes and its methods expect and return SI units.
 
 ### 4) Travis-CI
-We apply [Travis CI](http://www.travis-ci.com) for testing our code, building our packages and distributing them to [packager.com](http://app.packagr.com).
+We apply [Travis CI](http://www.travis-ci.com) for testing our code, building our packages and distributing them to [packagr.com](http://app.packagr.com).
 The tests\ folder contains the tests for this repository. A proper set of tests should have checked all aspects of the codes found under e.g tasks\ .
 But that would make the quiz to easy. Instead we only test some recognised truths. The status of the testing is seen by the status icon at the top of this readme.
 
