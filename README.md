@@ -4,7 +4,7 @@ The idea is to give you an opportunity to learn about some important topics for 
 We will not require that all questions are aswered correctly to be considered, but we would like to see that an attempt is made on all questions.  
 
 If you have stumbled upon this repository without reading the job ad first, please refer to 
-[finn.no](http://www.finn.no/???) or [sevanssp.com](http://www.sevanssp.com/???)
+[finn.no](https://www.finn.no/job/fulltime/ad.html?finnkode=165677959) or [sevanssp.com](https://sevanssp.com/vacant-positions/)
 
 ## Quiz
 Hints and necessary code is found in the repository. All code is written in Python 3.6.
