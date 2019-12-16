@@ -1,7 +1,7 @@
 # Naval Architect - Marine Analysis [![Build Status](https://travis-ci.com/SevanSSP/Naval_Architect-Marine_Analysis.svg?branch=master)](https://travis-ci.com/SevanSSP/Naval_Architect-Marine_Analysis)
 Before you apply for this position we first challenge you to a quiz on the topics hydrodynamics and coding.
 The idea is to give you an opportunity to learn about some important topics for this position and demonstrate basic understanding.
-We will not require that all questions are aswered correctly to be considered, but we would like to see that an attempt is made on all questions.  
+We will not require that all questions are answered correctly to be considered, but we would like to see that an attempt is made on all questions.  
 
 If you have stumbled upon this repository without reading the job ad first, please refer to 
 [finn.no](https://www.finn.no/job/fulltime/ad.html?finnkode=165677959) or [sevanssp.com](https://sevanssp.com/vacant-positions/)
@@ -71,4 +71,4 @@ The model test scaling produces incorrect results for one of the channels.
 
 
 ## Apply
-506c6561736520777269746520612073686f7274206170706c69636174696f6e2c2061747461636820796f757220435620616e6420746865207175697a2073686565742c20616e642073656e642065766572797468696e67206f666620746f206a6f6240736576616e7373702e636f6d2077697468696e2030362e30312e32302e
+48656164206261636b20746f20746865206a6f6220616420287777772e66696e6e2e6e6f2f6a6f622f66756c6c74696d652f61642e68746d6c3f66696e6e6b6f64653d3136353637373935392920616e64206170706c792074686572652e20506c65617365207375626d697420796f7572207175697a20736865657420616c6f6e67207769746820746865206170706c69636174696f6e20616e6420796f757220726573756d65
