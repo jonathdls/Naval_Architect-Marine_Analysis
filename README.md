@@ -31,7 +31,7 @@ Be aware that the ```MooringChain``` class and its methods expect and return SI 
 Global performance and natural period is important parameters for a floating structure.
 
 The task 3 Python file contains a  ```Floater```, a ```Barge``` and a ```Cylinder``` class that return added mass and natural period for a cylinder and a barge in accordance with approximated methods.
-The classes can be used to answer the following questions:
+The classes can be used to answer the following questions: 
  - What is the added mass of a cylinder with diameter = 100m? (Give the answer in tons)
  - What is the natural period of a barge with mass = 150,000t, length=300m, width=55m and draft=18m? 
 
