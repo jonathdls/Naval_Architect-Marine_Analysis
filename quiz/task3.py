@@ -97,7 +97,7 @@ class Barge(Floater):
 
     @property
     def estimated_added_mass_coefficient(self):
-        """ float: estimated added mass coefficient (cm) [-] fro a rectangular cross section approximated
+        """ float: estimated added mass coefficient (cm) [-] for a rectangular cross section approximated
         by line fit of Lewis numerical study.
         """
         return 1.5937 * (self.draft/self.width)**0.121
